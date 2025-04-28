@@ -11,7 +11,7 @@ services:
     environment:
       - DEBUG=0
       - SECRET_KEY=your-secret-key-here
-      - ALLOWED_HOSTS=marcia.coonect.tech,www.marcia.coonect.tech
+      - ALLOWED_HOSTS="marcia.coonect.tech,www.marcia.coonect.tech"
     networks:
       - traefik_public
     labels:
